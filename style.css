@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+body{
+    background-image: url(images/bg-pattern-top.svg);
+    background-size: contain;
+    background-color: var(--Dark-cyan);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    min-width: 375px;
+}
+.container{
+    background-color: aliceblue;
+    width: 328px;
+    height: 376px;
+    border-radius: 0.8rem;
+}
+.container_datos_cabecera{
+    background-image: url(images/bg-pattern-card.svg);
+    border-radius: 0.7rem 0.7rem 0 0;
+    height: 140px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+.container_datos{
+    display: grid;
+    justify-items: center;
+}
+.container_datos_imagen_perfil{
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.container_datos_personales{
+    display: flex;
+    margin: 15px auto;
+}
+.container_datos_nombre{
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 700;
+}
+.container_datos_edad{
+    color: var(--Dark-gray);
+    margin-left: 8px;
+}
+.container_datos_ciudad{
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.container_redes_sociales{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.estadisticas{
+    display: grid;
+    justify-items: center;
+    margin: 12px auto;
+}
+.numero{
+    color: var(--Very-dark-desaturated-blue);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.parrafo{
+    color: var(--Dark-grayish-blue);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 20px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
